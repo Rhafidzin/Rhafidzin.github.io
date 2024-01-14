@@ -10,9 +10,9 @@ export function Main() {
               <span className="sr-only">Your Company</span>
               <Image
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-                width={400} height={400}
+                src="/next.svg"
+                alt="..."
+                width={100} height={100}
               />
             </a>
           </div>

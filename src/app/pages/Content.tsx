@@ -26,7 +26,7 @@ export const posts = [
     {
       id: 3,
       title: "Music Player",
-      href: './animelist',
+      href: './musicplay',
       description:
         "This project contains: Data Cleansing, Data Sorting, Data Visualization",
       date: 'October 9, 2023',

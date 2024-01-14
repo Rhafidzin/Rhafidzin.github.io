@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    reactStrictMode: false,
     images:{
         remotePatterns: [
         {
@@ -10,6 +11,9 @@ const nextConfig = {
         },
         {
             hostname: "tailwindui.com"
+        },
+        {
+            hostname: "i.scdn.co"
         }
 
         ]

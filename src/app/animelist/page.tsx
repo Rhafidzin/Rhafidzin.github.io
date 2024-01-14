@@ -4,7 +4,7 @@ export default async function Home() {
 
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime`)
   const anime = await response.json()
-  
+  console.log(anime)
   return (
     <div>
       <h1>Top Popular Anime</h1>
